@@ -1,0 +1,23 @@
+.btn-primary {
+  background-color: #16817a;
+  border-color: #16817a;
+}
+
+.btn-primary:hover {
+  background-color: #024249;
+  border-color: #024249;
+}
+
+.btn-primary.focus,
+.btn-primary:focus {
+  background-color: #024249;
+}
+
+#musicList .col-2 .iconfont:hover {
+  color: #649d66;
+  cursor: pointer;
+}
+
+#musicList .col-2 .icon-shanchu:hover {
+  color: #dd2c00;
+}

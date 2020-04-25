@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>添加音乐</title>
+  <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./add.css">
+</head>
+
+<body>
+  <div class="container my-4">
+    <div class="container my-4">
+      <h4>添加音乐到曲库</h4>
+      <!-- 由于mac和win系统的边框不一致，这里的height需要手动调整 -->
+      <div id="musicList" class='mb-2' style="overflow:auto; height: 210px;">您还未选择任何文件</div>
+    </div>
+
+    <div class="container">
+      <button id='select-music-button' class="btn btn-outline-primary btn-block">选择音乐</button>
+      <button id='import-music-button' class="btn btn-primary btn-block mt-2">导入音乐</button>
+    </div>
+
+  </div>
+
+  <script>
+    require('./add.js')
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>本地播放器</title>
+  <link rel="stylesheet" type="text/css" href="../icons/css/iconfont.css">
+  <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+  <div class="container my-4">
+    <h3>我的播放器</h3>
+    <button id='add-music-button' class="btn btn-primary btn-block mt-4">添加歌曲到曲库</button>
+    <div class="container my-4" style="overflow:auto; height: 350px;">
+      <div id="musicList"></div>
+    </div>
+
+    <div class="container fixed-bottom bg-white pb-4">
+      <hr style="width: 50%;" />
+      <div class="row my-2" id="player-status" style="height: 1rem;"></div>
+      <div class="progress">
+        <div id='player-progress' class="progress-bar bg-success" role="progressbar" style="width: 0%;">
+          0%
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    require('./index.js')
+  </script>
+</body>
+
+</html>
