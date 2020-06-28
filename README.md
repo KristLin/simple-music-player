@@ -2,7 +2,7 @@
 - A simple electron based music player.
 - This project is just for learning.
 
-# Technology Stakc:
+# Technology Stack:
 - **Node.js**
 - **NPM**
 - **Bootstrap**
